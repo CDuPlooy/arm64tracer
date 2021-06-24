@@ -1,0 +1,1303 @@
+{
+  "0x0": {
+    "name": "setup",
+    "number": "0x0"
+  },
+  "0x1": {
+    "name": "destroy",
+    "number": "0x1"
+  },
+  "0x2": {
+    "name": "submit",
+    "number": "0x2"
+  },
+  "0x3": {
+    "name": "cancel",
+    "number": "0x3"
+  },
+  "0x4": {
+    "name": "getevents",
+    "number": "0x4"
+  },
+  "0x5": {
+    "name": "setxattr",
+    "number": "0x5"
+  },
+  "0x6": {
+    "name": "lsetxattr",
+    "number": "0x6"
+  },
+  "0x7": {
+    "name": "fsetxattr",
+    "number": "0x7"
+  },
+  "0x8": {
+    "name": "getxattr",
+    "number": "0x8"
+  },
+  "0x9": {
+    "name": "lgetxattr",
+    "number": "0x9"
+  },
+  "0xa": {
+    "name": "fgetxattr",
+    "number": "0xa"
+  },
+  "0xb": {
+    "name": "listxattr",
+    "number": "0xb"
+  },
+  "0xc": {
+    "name": "llistxattr",
+    "number": "0xc"
+  },
+  "0xd": {
+    "name": "flistxattr",
+    "number": "0xd"
+  },
+  "0xe": {
+    "name": "removexattr",
+    "number": "0xe"
+  },
+  "0xf": {
+    "name": "lremovexattr",
+    "number": "0xf"
+  },
+  "0x10": {
+    "name": "fremovexattr",
+    "number": "0x10"
+  },
+  "0x11": {
+    "name": "getcwd",
+    "number": "0x11"
+  },
+  "0x12": {
+    "name": "dcookie",
+    "number": "0x12"
+  },
+  "0x13": {
+    "name": "eventfd2",
+    "number": "0x13"
+  },
+  "0x14": {
+    "name": "create1",
+    "number": "0x14"
+  },
+  "0x15": {
+    "name": "ctl",
+    "number": "0x15"
+  },
+  "0x16": {
+    "name": "pwait",
+    "number": "0x16"
+  },
+  "0x17": {
+    "name": "dup",
+    "number": "0x17"
+  },
+  "0x18": {
+    "name": "dup3",
+    "number": "0x18"
+  },
+  "0x19": {
+    "name": "fcntl",
+    "number": "0x19"
+  },
+  "0x1a": {
+    "name": "init1",
+    "number": "0x1a"
+  },
+  "0x1b": {
+    "name": "watch",
+    "number": "0x1b"
+  },
+  "0x1c": {
+    "name": "watch",
+    "number": "0x1c"
+  },
+  "0x1d": {
+    "name": "ioctl",
+    "parameters": ["int", "int"],
+    "number": "0x1d"
+  },
+  "0x1e": {
+    "name": "set",
+    "number": "0x1e"
+  },
+  "0x1f": {
+    "name": "get",
+    "number": "0x1f"
+  },
+  "0x20": {
+    "name": "flock",
+    "number": "0x20"
+  },
+  "0x21": {
+    "name": "mknodat",
+    "number": "0x21"
+  },
+  "0x22": {
+    "name": "mkdirat",
+    "number": "0x22"
+  },
+  "0x23": {
+    "name": "unlinkat",
+    "number": "0x23"
+  },
+  "0x24": {
+    "name": "symlinkat",
+    "number": "0x24"
+  },
+  "0x25": {
+    "name": "linkat",
+    "number": "0x25"
+  },
+  "0x26": {
+    "name": "renameat",
+    "number": "0x26"
+  },
+  "0x27": {
+    "name": "umount2",
+    "number": "0x27"
+  },
+  "0x28": {
+    "name": "mount",
+    "number": "0x28"
+  },
+  "0x29": {
+    "name": "root",
+    "number": "0x29"
+  },
+  "0x2a": {
+    "name": "nfsservctl",
+    "number": "0x2a"
+  },
+  "0x2b": {
+    "name": "statfs",
+    "number": "0x2b"
+  },
+  "0x2c": {
+    "name": "fstatfs",
+    "number": "0x2c"
+  },
+  "0x2d": {
+    "name": "truncate",
+    "number": "0x2d"
+  },
+  "0x2e": {
+    "name": "ftruncate",
+    "number": "0x2e"
+  },
+  "0x2f": {
+    "name": "fallocate",
+    "number": "0x2f"
+  },
+  "0x30": {
+    "name": "faccessat",
+    "parameters": ["int", "cstring", "int", "int"],
+    "number": "0x30"
+  },
+  "0x31": {
+    "name": "chdir",
+    "number": "0x31"
+  },
+  "0x32": {
+    "name": "fchdir",
+    "number": "0x32"
+  },
+  "0x33": {
+    "name": "chroot",
+    "number": "0x33"
+  },
+  "0x34": {
+    "name": "fchmod",
+    "number": "0x34"
+  },
+  "0x35": {
+    "name": "fchmodat",
+    "number": "0x35"
+  },
+  "0x36": {
+    "name": "fchownat",
+    "number": "0x36"
+  },
+  "0x37": {
+    "name": "fchown",
+    "number": "0x37"
+  },
+  "0x38": {
+    "name": "openat",
+    "number": "0x38",
+    "parameters": ["int", "cstring", "int"],
+    "return" : "int"
+  },
+  "0x39": {
+    "name": "close",
+    "number": "0x39"
+  },
+  "0x3a": {
+    "name": "vhangup",
+    "number": "0x3a"
+  },
+  "0x3b": {
+    "name": "pipe2",
+    "number": "0x3b"
+  },
+  "0x3c": {
+    "name": "quotactl",
+    "number": "0x3c"
+  },
+  "0x3d": {
+    "name": "getdents64",
+    "return": "int",
+    "parameters": ["uint", "*dirp", "uint"],
+    "number": "0x3d"
+  },
+  "0x3e": {
+    "name": "lseek",
+    "number": "0x3e"
+  },
+  "0x3f": {
+    "name": "read",
+    "number": "0x3f"
+  },
+  "0x40": {
+    "name": "write",
+    "number": "0x40"
+  },
+  "0x41": {
+    "name": "readv",
+    "number": "0x41"
+  },
+  "0x42": {
+    "name": "writev",
+    "number": "0x42"
+  },
+  "0x43": {
+    "name": "pread64",
+    "number": "0x43"
+  },
+  "0x44": {
+    "name": "pwrite64",
+    "number": "0x44"
+  },
+  "0x45": {
+    "name": "preadv",
+    "number": "0x45"
+  },
+  "0x46": {
+    "name": "pwritev",
+    "number": "0x46"
+  },
+  "0x47": {
+    "name": "sendfile",
+    "number": "0x47"
+  },
+  "0x48": {
+    "name": "pselect6",
+    "number": "0x48"
+  },
+  "0x49": {
+    "name": "ppoll",
+    "number": "0x49"
+  },
+  "0x4a": {
+    "name": "signalfd4",
+    "number": "0x4a"
+  },
+  "0x4b": {
+    "name": "vmsplice",
+    "number": "0x4b"
+  },
+  "0x4c": {
+    "name": "splice",
+    "number": "0x4c"
+  },
+  "0x4d": {
+    "name": "tee",
+    "number": "0x4d"
+  },
+  "0x4e": {
+    "name": "readlinkat",
+    "number": "0x4e"
+  },
+  "0x4f": {
+    "name": "fstatat",
+    "number": "0x4f"
+  },
+  "0x50": {
+    "name": "fstat",
+    "number": "0x50"
+  },
+  "0x51": {
+    "name": "sync",
+    "number": "0x51"
+  },
+  "0x52": {
+    "name": "fsync",
+    "number": "0x52"
+  },
+  "0x53": {
+    "name": "fdatasync",
+    "number": "0x53"
+  },
+  "0x54": {
+    "name": "range",
+    "number": "0x54"
+  },
+  "0x55": {
+    "name": "create",
+    "number": "0x55"
+  },
+  "0x56": {
+    "name": "settime",
+    "number": "0x56"
+  },
+  "0x57": {
+    "name": "gettime",
+    "number": "0x57"
+  },
+  "0x58": {
+    "name": "utimensat",
+    "number": "0x58"
+  },
+  "0x59": {
+    "name": "acct",
+    "number": "0x59"
+  },
+  "0x5a": {
+    "name": "capget",
+    "number": "0x5a"
+  },
+  "0x5b": {
+    "name": "capset",
+    "number": "0x5b"
+  },
+  "0x5c": {
+    "name": "personality",
+    "number": "0x5c"
+  },
+  "0x5d": {
+    "name": "exit",
+    "number": "0x5d"
+  },
+  "0x5e": {
+    "name": "group",
+    "number": "0x5e"
+  },
+  "0x5f": {
+    "name": "waitid",
+    "number": "0x5f"
+  },
+  "0x60": {
+    "name": "address",
+    "number": "0x60"
+  },
+  "0x61": {
+    "name": "unshare",
+    "number": "0x61"
+  },
+  "0x62": {
+    "name": "futex",
+    "number": "0x62"
+  },
+  "0x63": {
+    "name": "list",
+    "number": "0x63"
+  },
+  "0x64": {
+    "name": "list",
+    "number": "0x64"
+  },
+  "0x65": {
+    "name": "nanosleep",
+    "number": "0x65"
+  },
+  "0x66": {
+    "name": "getitimer",
+    "number": "0x66"
+  },
+  "0x67": {
+    "name": "setitimer",
+    "number": "0x67"
+  },
+  "0x68": {
+    "name": "load",
+    "number": "0x68"
+  },
+  "0x69": {
+    "name": "module",
+    "number": "0x69"
+  },
+  "0x6a": {
+    "name": "module",
+    "number": "0x6a"
+  },
+  "0x6b": {
+    "name": "create",
+    "number": "0x6b"
+  },
+  "0x6c": {
+    "name": "gettime",
+    "number": "0x6c"
+  },
+  "0x6d": {
+    "name": "getoverrun",
+    "number": "0x6d"
+  },
+  "0x6e": {
+    "name": "settime",
+    "number": "0x6e"
+  },
+  "0x6f": {
+    "name": "delete",
+    "number": "0x6f"
+  },
+  "0x70": {
+    "name": "settime",
+    "number": "0x70"
+  },
+  "0x71": {
+    "name": "gettime",
+    "number": "0x71"
+  },
+  "0x72": {
+    "name": "getres",
+    "number": "0x72"
+  },
+  "0x73": {
+    "name": "nanosleep",
+    "number": "0x73"
+  },
+  "0x74": {
+    "name": "syslog",
+    "number": "0x74"
+  },
+  "0x75": {
+    "name": "ptrace",
+    "number": "0x75"
+  },
+  "0x76": {
+    "name": "setparam",
+    "number": "0x76"
+  },
+  "0x77": {
+    "name": "setscheduler",
+    "number": "0x77"
+  },
+  "0x78": {
+    "name": "getscheduler",
+    "number": "0x78"
+  },
+  "0x79": {
+    "name": "getparam",
+    "number": "0x79"
+  },
+  "0x7a": {
+    "name": "setaffinity",
+    "number": "0x7a"
+  },
+  "0x7b": {
+    "name": "getaffinity",
+    "number": "0x7b"
+  },
+  "0x7c": {
+    "name": "yield",
+    "number": "0x7c"
+  },
+  "0x7d": {
+    "name": "max",
+    "number": "0x7d"
+  },
+  "0x7e": {
+    "name": "min",
+    "number": "0x7e"
+  },
+  "0x7f": {
+    "name": "interval",
+    "number": "0x7f"
+  },
+  "0x80": {
+    "name": "syscall",
+    "number": "0x80"
+  },
+  "0x81": {
+    "name": "kill",
+    "number": "0x81"
+  },
+  "0x82": {
+    "name": "tkill",
+    "number": "0x82"
+  },
+  "0x83": {
+    "name": "tgkill",
+    "number": "0x83"
+  },
+  "0x84": {
+    "name": "sigaltstack",
+    "number": "0x84"
+  },
+  "0x85": {
+    "name": "sigsuspend",
+    "number": "0x85"
+  },
+  "0x86": {
+    "name": "sigaction",
+    "number": "0x86"
+  },
+  "0x87": {
+    "name": "sigprocmask",
+    "number": "0x87"
+  },
+  "0x88": {
+    "name": "sigpending",
+    "number": "0x88"
+  },
+  "0x89": {
+    "name": "sigtimedwait",
+    "number": "0x89"
+  },
+  "0x8a": {
+    "name": "sigqueueinfo",
+    "number": "0x8a"
+  },
+  "0x8b": {
+    "name": "sigreturn",
+    "number": "0x8b"
+  },
+  "0x8c": {
+    "name": "setpriority",
+    "number": "0x8c"
+  },
+  "0x8d": {
+    "name": "getpriority",
+    "number": "0x8d"
+  },
+  "0x8e": {
+    "name": "reboot",
+    "number": "0x8e"
+  },
+  "0x8f": {
+    "name": "setregid",
+    "number": "0x8f"
+  },
+  "0x90": {
+    "name": "setgid",
+    "number": "0x90"
+  },
+  "0x91": {
+    "name": "setreuid",
+    "number": "0x91"
+  },
+  "0x92": {
+    "name": "setuid",
+    "number": "0x92"
+  },
+  "0x93": {
+    "name": "setresuid",
+    "number": "0x93"
+  },
+  "0x94": {
+    "name": "getresuid",
+    "number": "0x94"
+  },
+  "0x95": {
+    "name": "setresgid",
+    "number": "0x95"
+  },
+  "0x96": {
+    "name": "getresgid",
+    "number": "0x96"
+  },
+  "0x97": {
+    "name": "setfsuid",
+    "number": "0x97"
+  },
+  "0x98": {
+    "name": "setfsgid",
+    "number": "0x98"
+  },
+  "0x99": {
+    "name": "times",
+    "number": "0x99"
+  },
+  "0x9a": {
+    "name": "setpgid",
+    "number": "0x9a"
+  },
+  "0x9b": {
+    "name": "getpgid",
+    "number": "0x9b"
+  },
+  "0x9c": {
+    "name": "getsid",
+    "number": "0x9c"
+  },
+  "0x9d": {
+    "name": "setsid",
+    "number": "0x9d"
+  },
+  "0x9e": {
+    "name": "getgroups",
+    "number": "0x9e"
+  },
+  "0x9f": {
+    "name": "setgroups",
+    "number": "0x9f"
+  },
+  "0xa0": {
+    "name": "uname",
+    "number": "0xa0"
+  },
+  "0xa1": {
+    "name": "sethostname",
+    "number": "0xa1"
+  },
+  "0xa2": {
+    "name": "setdomainname",
+    "number": "0xa2"
+  },
+  "0xa3": {
+    "name": "getrlimit",
+    "number": "0xa3"
+  },
+  "0xa4": {
+    "name": "setrlimit",
+    "number": "0xa4"
+  },
+  "0xa5": {
+    "name": "getrusage",
+    "number": "0xa5"
+  },
+  "0xa6": {
+    "name": "umask",
+    "number": "0xa6"
+  },
+  "0xa7": {
+    "name": "prctl",
+    "number": "0xa7"
+  },
+  "0xa8": {
+    "name": "getcpu",
+    "number": "0xa8"
+  },
+  "0xa9": {
+    "name": "gettimeofday",
+    "number": "0xa9"
+  },
+  "0xaa": {
+    "name": "settimeofday",
+    "number": "0xaa"
+  },
+  "0xab": {
+    "name": "adjtimex",
+    "number": "0xab"
+  },
+  "0xac": {
+    "name": "getpid",
+    "number": "0xac"
+  },
+  "0xad": {
+    "name": "getppid",
+    "number": "0xad"
+  },
+  "0xae": {
+    "name": "getuid",
+    "number": "0xae"
+  },
+  "0xaf": {
+    "name": "geteuid",
+    "number": "0xaf"
+  },
+  "0xb0": {
+    "name": "getgid",
+    "number": "0xb0"
+  },
+  "0xb1": {
+    "name": "getegid",
+    "number": "0xb1"
+  },
+  "0xb2": {
+    "name": "gettid",
+    "number": "0xb2"
+  },
+  "0xb3": {
+    "name": "sysinfo",
+    "number": "0xb3"
+  },
+  "0xb4": {
+    "name": "open",
+    "number": "0xb4",
+    "return": "int",
+    "parameters": ["cstring", "int"]
+  },
+  "0xb5": {
+    "name": "unlink",
+    "number": "0xb5"
+  },
+  "0xb6": {
+    "name": "timedsend",
+    "number": "0xb6"
+  },
+  "0xb7": {
+    "name": "timedreceive",
+    "number": "0xb7"
+  },
+  "0xb8": {
+    "name": "notify",
+    "number": "0xb8"
+  },
+  "0xb9": {
+    "name": "getsetattr",
+    "number": "0xb9"
+  },
+  "0xba": {
+    "name": "msgget",
+    "number": "0xba"
+  },
+  "0xbb": {
+    "name": "msgctl",
+    "number": "0xbb"
+  },
+  "0xbc": {
+    "name": "msgrcv",
+    "number": "0xbc"
+  },
+  "0xbd": {
+    "name": "msgsnd",
+    "number": "0xbd"
+  },
+  "0xbe": {
+    "name": "semget",
+    "number": "0xbe"
+  },
+  "0xbf": {
+    "name": "semctl",
+    "number": "0xbf"
+  },
+  "0xc0": {
+    "name": "semtimedop",
+    "number": "0xc0"
+  },
+  "0xc1": {
+    "name": "semop",
+    "number": "0xc1"
+  },
+  "0xc2": {
+    "name": "shmget",
+    "number": "0xc2"
+  },
+  "0xc3": {
+    "name": "shmctl",
+    "number": "0xc3"
+  },
+  "0xc4": {
+    "name": "shmat",
+    "number": "0xc4"
+  },
+  "0xc5": {
+    "name": "shmdt",
+    "number": "0xc5"
+  },
+  "0xc6": {
+    "name": "socket",
+    "number": "0xc6"
+  },
+  "0xc7": {
+    "name": "socketpair",
+    "number": "0xc7"
+  },
+  "0xc8": {
+    "name": "bind",
+    "number": "0xc8"
+  },
+  "0xc9": {
+    "name": "listen",
+    "number": "0xc9"
+  },
+  "0xca": {
+    "name": "accept",
+    "number": "0xca"
+  },
+  "0xcb": {
+    "name": "connect",
+    "number": "0xcb"
+  },
+  "0xcc": {
+    "name": "getsockname",
+    "number": "0xcc"
+  },
+  "0xcd": {
+    "name": "getpeername",
+    "number": "0xcd"
+  },
+  "0xce": {
+    "name": "sendto",
+    "number": "0xce"
+  },
+  "0xcf": {
+    "name": "recvfrom",
+    "number": "0xcf"
+  },
+  "0xd0": {
+    "name": "setsockopt",
+    "number": "0xd0"
+  },
+  "0xd1": {
+    "name": "getsockopt",
+    "number": "0xd1"
+  },
+  "0xd2": {
+    "name": "shutdown",
+    "number": "0xd2"
+  },
+  "0xd3": {
+    "name": "sendmsg",
+    "number": "0xd3"
+  },
+  "0xd4": {
+    "name": "recvmsg",
+    "number": "0xd4"
+  },
+  "0xd5": {
+    "name": "readahead",
+    "number": "0xd5"
+  },
+  "0xd6": {
+    "name": "brk",
+    "number": "0xd6"
+  },
+  "0xd7": {
+    "name": "munmap",
+    "number": "0xd7"
+  },
+  "0xd8": {
+    "name": "mremap",
+    "number": "0xd8"
+  },
+  "0xd9": {
+    "name": "key",
+    "number": "0xd9"
+  },
+  "0xda": {
+    "name": "key",
+    "number": "0xda"
+  },
+  "0xdb": {
+    "name": "keyctl",
+    "number": "0xdb"
+  },
+  "0xdc": {
+    "name": "clone",
+    "number": "0xdc"
+  },
+  "0xdd": {
+    "name": "execve",
+    "number": "0xdd"
+  },
+  "0xde": {
+    "name": "mmap",
+    "number": "0xde"
+  },
+  "0xdf": {
+    "name": "fadvise64",
+    "number": "0xdf"
+  },
+  "0xe0": {
+    "name": "swapon",
+    "number": "0xe0"
+  },
+  "0xe1": {
+    "name": "swapoff",
+    "number": "0xe1"
+  },
+  "0xe2": {
+    "name": "mprotect",
+    "number": "0xe2"
+  },
+  "0xe3": {
+    "name": "msync",
+    "number": "0xe3"
+  },
+  "0xe4": {
+    "name": "mlock",
+    "number": "0xe4"
+  },
+  "0xe5": {
+    "name": "munlock",
+    "number": "0xe5"
+  },
+  "0xe6": {
+    "name": "mlockall",
+    "number": "0xe6"
+  },
+  "0xe7": {
+    "name": "munlockall",
+    "number": "0xe7"
+  },
+  "0xe8": {
+    "name": "mincore",
+    "number": "0xe8"
+  },
+  "0xe9": {
+    "name": "madvise",
+    "number": "0xe9"
+  },
+  "0xea": {
+    "name": "pages",
+    "number": "0xea"
+  },
+  "0xeb": {
+    "name": "mbind",
+    "number": "0xeb"
+  },
+  "0xec": {
+    "name": "mempolicy",
+    "number": "0xec"
+  },
+  "0xed": {
+    "name": "mempolicy",
+    "number": "0xed"
+  },
+  "0xee": {
+    "name": "pages",
+    "number": "0xee"
+  },
+  "0xef": {
+    "name": "pages",
+    "number": "0xef"
+  },
+  "0xf0": {
+    "name": "tgsigqueueinfo",
+    "number": "0xf0"
+  },
+  "0xf1": {
+    "name": "open",
+    "number": "0xf1"
+  },
+  "0xf2": {
+    "name": "accept4",
+    "number": "0xf2"
+  },
+  "0xf3": {
+    "name": "recvmmsg",
+    "number": "0xf3"
+  },
+  "0xf4": {
+    "name": "syscall",
+    "number": "0xf4"
+  },
+  "0x104": {
+    "name": "wait4",
+    "number": "0x104"
+  },
+  "0x105": {
+    "name": "prlimit64",
+    "number": "0x105"
+  },
+  "0x106": {
+    "name": "init",
+    "number": "0x106"
+  },
+  "0x107": {
+    "name": "mark",
+    "number": "0x107"
+  },
+  "0x108": {
+    "name": "at        ",
+    "number": "0x108"
+  },
+  "0x109": {
+    "name": "at        ",
+    "number": "0x109"
+  },
+  "0x10a": {
+    "name": "adjtime",
+    "number": "0x10a"
+  },
+  "0x10b": {
+    "name": "syncfs",
+    "number": "0x10b"
+  },
+  "0x10c": {
+    "name": "setns",
+    "number": "0x10c"
+  },
+  "0x10d": {
+    "name": "sendmmsg",
+    "number": "0x10d"
+  },
+  "0x10e": {
+    "name": "readv",
+    "number": "0x10e"
+  },
+  "0x10f": {
+    "name": "writev",
+    "number": "0x10f"
+  },
+  "0x110": {
+    "name": "kcmp",
+    "number": "0x110"
+  },
+  "0x111": {
+    "name": "module",
+    "number": "0x111"
+  },
+  "0x112": {
+    "name": "setattr",
+    "number": "0x112"
+  },
+  "0x113": {
+    "name": "getattr",
+    "number": "0x113"
+  },
+  "0x114": {
+    "name": "renameat2",
+    "number": "0x114"
+  },
+  "0x115": {
+    "name": "seccomp",
+    "number": "0x115"
+  },
+  "0x116": {
+    "name": "getrandom",
+    "number": "0x116"
+  },
+  "0x117": {
+    "name": "create",
+    "number": "0x117"
+  },
+  "0x118": {
+    "name": "bpf",
+    "number": "0x118"
+  },
+  "0x119": {
+    "name": "execveat",
+    "number": "0x119"
+  },
+  "0x11a": {
+    "name": "userfaultfd",
+    "number": "0x11a"
+  },
+  "0x11b": {
+    "name": "membarrier",
+    "number": "0x11b"
+  },
+  "0x11c": {
+    "name": "mlock2",
+    "number": "0x11c"
+  },
+  "0x11d": {
+    "name": "range",
+    "number": "0x11d"
+  },
+  "0x11e": {
+    "name": "preadv2",
+    "number": "0x11e"
+  },
+  "0x11f": {
+    "name": "pwritev2",
+    "number": "0x11f"
+  },
+  "0x120": {
+    "name": "mprotect",
+    "number": "0x120"
+  },
+  "0x121": {
+    "name": "alloc",
+    "number": "0x121"
+  },
+  "0x122": {
+    "name": "free",
+    "number": "0x122"
+  },
+  "0x123": {
+    "name": "statx",
+    "number": "0x123"
+  },
+  "0x124": {
+    "name": "pgetevents",
+    "number": "0x124"
+  },
+  "0x125": {
+    "name": "rseq",
+    "number": "0x125"
+  },
+  "0x126": {
+    "name": "load",
+    "number": "0x126"
+  },
+  "0x193": {
+    "name": "gettime64",
+    "number": "0x193"
+  },
+  "0x194": {
+    "name": "settime64",
+    "number": "0x194"
+  },
+  "0x195": {
+    "name": "adjtime64",
+    "number": "0x195"
+  },
+  "0x196": {
+    "name": "time64",
+    "number": "0x196"
+  },
+  "0x197": {
+    "name": "time64",
+    "number": "0x197"
+  },
+  "0x198": {
+    "name": "gettime64",
+    "number": "0x198"
+  },
+  "0x199": {
+    "name": "settime64",
+    "number": "0x199"
+  },
+  "0x19a": {
+    "name": "gettime64",
+    "number": "0x19a"
+  },
+  "0x19b": {
+    "name": "settime64",
+    "number": "0x19b"
+  },
+  "0x19c": {
+    "name": "time64",
+    "number": "0x19c"
+  },
+  "0x19d": {
+    "name": "time64",
+    "number": "0x19d"
+  },
+  "0x19e": {
+    "name": "time64",
+    "number": "0x19e"
+  },
+  "0x1a0": {
+    "name": "time64",
+    "number": "0x1a0"
+  },
+  "0x1a1": {
+    "name": "time64",
+    "number": "0x1a1"
+  },
+  "0x1a2": {
+    "name": "time64",
+    "number": "0x1a2"
+  },
+  "0x1a3": {
+    "name": "time64",
+    "number": "0x1a3"
+  },
+  "0x1a4": {
+    "name": "time64",
+    "number": "0x1a4"
+  },
+  "0x1a5": {
+    "name": "time64",
+    "number": "0x1a5"
+  },
+  "0x1a6": {
+    "name": "time64",
+    "number": "0x1a6"
+  },
+  "0x1a7": {
+    "name": "time64",
+    "number": "0x1a7"
+  },
+  "0x1a8": {
+    "name": "signal",
+    "number": "0x1a8"
+  },
+  "0x1a9": {
+    "name": "setup",
+    "number": "0x1a9"
+  },
+  "0x1aa": {
+    "name": "enter",
+    "number": "0x1aa"
+  },
+  "0x1ab": {
+    "name": "register",
+    "number": "0x1ab"
+  },
+  "0x1ac": {
+    "name": "tree",
+    "number": "0x1ac"
+  },
+  "0x1ad": {
+    "name": "mount",
+    "number": "0x1ad"
+  },
+  "0x1ae": {
+    "name": "fsopen",
+    "number": "0x1ae"
+  },
+  "0x1af": {
+    "name": "fsconfig",
+    "number": "0x1af"
+  },
+  "0x1b0": {
+    "name": "fsmount",
+    "number": "0x1b0"
+  },
+  "0x1b1": {
+    "name": "fspick",
+    "number": "0x1b1"
+  },
+  "0x1b2": {
+    "name": "open",
+    "number": "0x1b2"
+  },
+  "0x1b3": {
+    "name": "clone3",
+    "number": "0x1b3"
+  },
+  "0x1b4": {
+    "name": "range",
+    "number": "0x1b4"
+  },
+  "0x1b5": {
+    "name": "openat2",
+    "number": "0x1b5"
+  },
+  "0x1b6": {
+    "name": "getfd",
+    "number": "0x1b6"
+  },
+  "0x1b7": {
+    "name": "faccessat2",
+    "parameters": ["int", "cstring", "int", "int"],
+    "number": "0x1b7"
+  },
+  "0x1b8": {
+    "name": "madvise",
+    "number": "0x1b8"
+  },
+  "0x1b9": {
+    "name": "pwait2",
+    "number": "0x1b9"
+  },
+  "0x1ba": {
+    "name": "setattr",
+    "number": "0x1ba"
+  },
+  "0x1bc": {
+    "name": "ruleset",
+    "number": "0x1bc"
+  },
+  "0x1bd": {
+    "name": "rule",
+    "number": "0x1bd"
+  },
+  "0x1be": {
+    "name": "self",
+    "number": "0x1be"
+  },
+  "0x1bf": {
+    "name": "syscalls",
+    "number": "0x1bf"
+  }
+}
